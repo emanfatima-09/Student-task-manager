@@ -1,0 +1,9 @@
+# Student Task Management System - Ingestion Module
+def add_task(task_list, new_task):
+    task_list.append(new_task)
+    print(f"Added task: '{new_task}'")
+    return task_list
+
+if __name__ == "__main__":
+    sample_list = ["Study for OS exam"]
+    add_task(sample_list, "Complete Git lab assignment")
